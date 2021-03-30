@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/etFirstNum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Введите первое число"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:id="@+id/etSecondNum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Введите второе число"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:id="@+id/etThirdNum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Введите третье число"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/btnSum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Сложить числа"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="10dp"/>
+
+
+
+    <TextView
+        android:id="@+id/tvAnswer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="22sp"
+        android:layout_gravity="center"
+        tools:text = "Ответ"/>
+</LinearLayout>
